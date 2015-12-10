@@ -1,0 +1,137 @@
+body{
+    background-color: #999999;
+}
+.body_head{
+    position: relative;
+}
+.body_head .body_head_bg{
+    height: 223px;
+}
+.body_head .body_head_icon{
+    width: 70px;
+    position: absolute;
+    top: 60px;
+    margin-left: -35px;
+}
+nav{
+    background-color: #ffffff;
+}
+
+ul{
+    width: 460px;
+    margin: auto;
+    padding: 0;
+}
+.navbar-nav{
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+}
+ul>li{
+    padding: 0 4px;
+}
+ul>li>a{
+    color: #737373;
+    font-size: 14px;
+    line-height: 80px;
+}
+.nav>li>a:hover{
+    color: #e38d13;
+    background-color: #fff;
+}
+.big{
+    height: 30px;
+}
+.big_jumbtron{
+    margin: 35px 0 35px 70px;
+    padding: 20px 35px 25px 35px;
+    background-color: #ffffff;
+    position: relative;
+}
+.jumbotron .small-text{
+    font-size: 14px;
+    color: #999999;
+}
+.jumbotron .small-text span{
+    color: #e38d13;
+}
+.jumbotron .text{
+    font-size: 18px;
+}
+.jumbotron button{
+    background-color: #e38d13;
+    color: #ffffff;
+    margin: 20px 0;
+}
+.jumbotron .link{
+    font-size: 14px;
+}
+.jumbotron .link>a{
+    color: #999999;
+}
+.jumbotron button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.jumbotron img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 44px;
+    height: 44px;
+}
+.btn-box .text-span{
+    background-color: #e38d13;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.btn-box button{
+    background-color: #e38d13;
+    color: #ffffff;
+    height: 37px;
+    top: -1px;
+    position: relative;
+}
+.small_jumbotron{
+    margin: 35px 70px 35px 0;
+    padding: 20px 35px 25px 35px;
+    background-color: #ffffff;
+    position: relative;
+}
+.small_jumbotron .page-header{
+    font-size: 20px;
+    margin: 0;
+}
+.small_jumbotron .qq{
+    font-size: 14px;
+    padding-top: 20px;
+    background-color: #1b6d85;
+}
+.small_jumbotron .img_qq{
+    position: absolute;
+    width: 20px;
+    height: 22px;
+    left: 16px;
+    top: 110px;
+}
+.small_jumbotron .img_weibo{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 16px;
+    top: 135px;
+}
+.small_jumbotron .text_qq{
+    background-color: #1b6d85;
+    padding: 0;
+    margin: 0;
+}
+.small_jumbotron .text_qq>a{
+    color:  #e38d13;
+    font-size: 14px;
+}
+.small_jumbotron .text_weibo>a{
+    color: #e38d13;
+    font-size: 14px;
+}
