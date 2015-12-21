@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>魔镜</title>
+    <style type="text/css">
+        body,img,p,ul{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: #fff;
+        }
+        .container{
+            max-width: 640px;
+            margin: 0 auto;
+            background-color: #29bde0;
+        }
+        .container>.header{
+            padding: 66px 20px 0 20px;
+        }
+        .header>.img-left{
+            float: left;
+        }
+        .header>.img-right{
+            float: right;
+        }
+        .clear{
+            clear: both;
+        }
+        .header>p{
+            text-align: center;
+            font-size: 30px;
+            color: #fff;
+            padding-top: 12px;
+        }
+        .content-logo{
+            text-align: center;
+            margin-top: 46px;
+        }
+        .content-logo>p{
+            color: #fff;
+            font-size: 46px;
+            position: relative;
+            top: -64px;
+        }
+        .content>.content_a{
+            color: #ffc865;
+            text-align: left;
+            margin: 0 12% 0 12%;
+            font-size: 36px;
+            margin-top: -20px;
+            position: relative;
+            padding-bottom: 58px;
+        }
+        .content_b{
+            color: #fff;
+            font-size: 25px;
+            margin: 0 12% 0 12%;
+            line-height:34px;
+            width: 78%;
+            padding-bottom: 26px;
+        }
+        .content_b>ul{
+            list-style: none;
+
+        }
+        .content_b>ul>li{
+            float: left;
+            margin-right: 8%;
+        }
+        .det{
+            max-width: 640px;
+            margin: 0 auto;
+            color: #ddd;
+
+        }
+        .block{
+            font-size: 25px;
+            padding: 14px 16% 20px 12%;
+        }
+        .det>hr{
+            border: none;
+            height: 2px;
+            background-color: #ddd;
+        }
+        .tit{
+            position: relative;
+        }
+        .tit>.day{
+            font-size: 30px;
+            color: #000;
+        }
+        .tit>.time{
+            font-size: 20px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        .block>.tit{
+            margin-bottom: 30px;
+        }
+        .block>p{
+            margin-bottom: 16px;
+        }
+        .fixed{
+            max-width: 640px;
+            margin: auto;
+            background-color: #99dff0;
+            background-color: rgba(153,223,240,0.7);
+            position: fixed;
+            bottom: 0;
+            z-index: 999;
+            left: 0;
+            right: 0;
+        }
+        .box{
+            position: relative;
+        }
+        .box>button{
+            margin: 25px 4%;
+            height: 86px;
+            border: none;
+            background: none;
+            color: #fff;
+            -moz-border-radius: 10px;      /* Gecko browsers */
+            -webkit-border-radius: 10px;   /* Webkit browsers */
+            border-radius:10px;
+            font-size: 38px;
+            padding: 0 7.5%;
+        }
+        .box>.fixed_lefe{
+            background-color: #f66f6f;
+        }
+        .box>.fixed_right{
+            position: absolute;
+            right: 0;
+            background-color: #fbb435;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="img-left"><img src="imgs/header-img-left.png" alt=""/></div>
+            <div class="img-right"><img src="imgs/header-img-right.png" alt=""/></div>
+            <p>游戏结果</p>
+        </div>
+        <div class="content">
+            <div class="content-logo">
+                <img src="imgs/content.png" alt=""/>
+                <p><b>卧底胜利</b></p>
+            </div>
+            <p class="content_a">太棒了!你知道么？在捉鬼游戏中
+                只有20%的卧底取得游戏最终的
+                胜利哦！</p>
+            <div class="content_b">
+                <p>本次游戏共计用时0小时25分钟</p>
+                <ul>
+                    <li>杀&nbsp;&nbsp;&nbsp;手0人</li>
+                    <li>警&nbsp;&nbsp;&nbsp;察1人</li>
+                    <li>平&nbsp;&nbsp;&nbsp;民6人</li>
+                    <li>狙击手0人</li>
+                    <li>医&nbsp;&nbsp;&nbsp;生1人</li>
+                </ul>
+                <div class="clear"></div>
+                <p>卧底词汇：爱新觉罗</p>
+                <p>水民词汇：努尔哈赤</p>
+            </div>
+        </div>
+    </div>
+    <div class="fixed">
+        <div class="box">
+            <button class="fixed_lefe">再来一局</button>
+            <button class="fixed_right">上传并分享</button>
+        </div>
+    </div>
+    <div class="det">
+        <div class="block">
+            <div class="tit">
+                <span class="day">第1天</span>
+                <span class="time">0小时07分</span>
+            </div>
+            <p>晚上：5号被杀手杀死，5号是水民</p>
+            <p>白天：8号被全民投票投死，8号是杀手</p>
+        </div>
+        <hr/>
+    </div>
+    <div class="det">
+        <div class="block">
+            <div class="tit">
+                <span class="day">第1天</span>
+                <span class="time">0小时07分</span>
+            </div>
+            <p>晚上：5号被杀手杀死，5号是水民</p>
+            <p>白天：8号被全民投票投死，8号是杀手</p>
+        </div>
+        <hr/>
+    </div>
+    <div class="det">
+        <div class="block">
+            <div class="tit">
+                <span class="day">第1天</span>
+                <span class="time">0小时07分</span>
+            </div>
+            <p>晚上：5号被杀手杀死，5号是水民</p>
+            <p>白天：8号被全民投票投死，8号是杀手</p>
+        </div>
+        <hr/>
+    </div>
+    <div class="det">
+        <div class="block">
+            <div class="tit">
+                <span class="day">第1天</span>
+                <span class="time">0小时07分</span>
+            </div>
+            <p>晚上：5号被杀手杀死，5号是水民</p>
+            <p>白天：8号被全民投票投死，8号是杀手</p>
+        </div>
+        <hr/>
+    </div>
+</body>
+</html>
